@@ -1,10 +1,10 @@
 import React from "react";
-import Recipecards from "./components/Recipecards/Recipecards";
+import Recipecards from "./components/Recipecards";
 
 const App = () => {
   return (
     <div>
-      <Recipecards />
+      <Recipecards cal={300} />
     </div>
   );
 };
